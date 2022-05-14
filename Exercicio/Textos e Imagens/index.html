@@ -3,147 +3,332 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Tags básicas</title>
+	<title>Textos e Imagens</title>
 	<style>
+
+
+
 		h1{
-			font-family: Calibri Light;
-			font-size: 45pt;
+			font-family: Trebuchet MS;
+			font-size: 35pt;
 			color: #B80088;
 			text-shadow: 1px 1px 15px #FF69D8;
 			text-align: center;
+			margin: 0px 250px 0px 250px;
+
 		}
-				h2{
-			font-family: Calibri Light;
+		h2{
+			font-family: Trebuchet MS;
 			font-size: 30pt;
-			color: #000099;
+			color: #AE72EA;
 			text-align: center; 
+			margin: 0px 250px 0px 250px;
 		}
 		h3{
-			font-family: Calibri Light;
+			font-family: Trebuchet MS;
 			font-size: 20pt;
 			color: #3366CC;
-			text-align: center; 
+			text-indent: 25px;
+			text-align: left; 
+			margin: 0px 250px 0px 250px;
 		}
 
-		h4{
-			font-family: Calibri Light;
+		p{
+			font-family: Trebuchet MS;
 			font-size: 12pt;
-			color: #008080;
+			color: #000000;
+			text-align: justify; 
+			text-indent: 50px;
+			margin: 0px 250px 0px 250px;
+        }
+
+		.fig1{
+        position: relative;
 		}
-		j,
+
+		.fig1 img{
+			border: 8px solid #D257F3;
+			height:  60%;
+			width:  59%;
+
+		}
+
+		.fig1 figcaption{
+		opacity: 0;	
+        position: absolute;
+        top: 0px;
+        background-color: rgba(0, 0, 0, 0.3);
+        color: #FFFFFF;
+        height:  99%;
+		width:  60%;
+		padding: 10px;
+		box-sizing: border-box;
+		transition: opacity 1s;
+		margin: 0px 250px 0px 250px;
+		}
+
+		.fig1:hover figcaption{
+			opacity: 1;
+		}
+
+
+		
+
 	</style>
 </head>
-<body bgcolor="#A9EBE9">
-
-	<h1><b><em>A VOLTA DO ORKUT</em></b></h1>
-
-<center>
-	<title>Bordas Arredondadas com CSS</title>
-<style type="text/css">
-img{border-radius: 20px;}
-</style>
-	<img src="https://www.poupardinheiro.com.br/imagens/post/3463/orkut-voltando-fundador-reativa-site-logo_1.png"height="40%" width="40%"></center>
+<body bgcolor="#FFFFFF">
 
 
-<h4><p style="text-align: justify; text-indent: 50px;">O Orkut foi lançado há exatos 17 anos, no dia 24 de janeiro de 2004. Após dez anos de existência, a rede social foi desativada em 30 de setembro de 2014 e deixou saudades entre os usuários, especialmente os brasileiros. Alguns recursos estão presentes na memória dos mais apegados até hoje, como os scraps, a sorte do dia e os depoimentos, que podiam ser enviados de forma oculta. Infelizmente, a maioria dessas funções não existe em plataformas famosas atualmente, como a lista de quem visualizou o perfil. </p>
 
-<p style="text-align: justify; text-indent: 50px;">O domínio orkut.com foi reativado na quarta-feira (27), mas isso não significa que a volta da rede social está garantida. A página traz um comunicado oficial, assinado pelo próprio Orkut Büyükkökten, em que ele afirma: "Acredito no poder da conexão para mudar o mundo. Acredito que o mundo é um lugar melhor quando nos conhecemos um pouco mais. [...] E é por isso que estou construindo algo novo. Vejo você em breve!". </p>
+	<h1><b><em>Volta do <em><b><font color="#B80088">Orkut</font></b></em>? Fundador promete a volta da rede social em uma nova versão cheia de novidades.</em></b></h1>
 
-<p style="text-align: justify; text-indent: 50px;">O uso da logomarca do finado site fortalece o sentimento de que se trata de uma nova versão do Orkut, talvez resgatando os recursos mais amados da antiga rede, mas com uma roupagem diferente. </p>
+<br>
 
-<p style="text-align: justify; text-indent: 50px;">No entanto, o texto, que traz versões em inglês e português, é bastante aberto a interpretações. O futuro projeto poderia também ser algo completamente diferente — ou nem mesmo vir a ser lançado. </p>
+	<p>A rede social, que unia fotos, depoimentos e comunidades, foi desativada em 2014 deixando milhares de pessoas tristes após o sucesso global do Facebook e inicial popularização do instagram.</p>
 
-<p style="text-align: justify; text-indent: 50px;">Na reportagem a seguir vamos mostrar como será o novo formato de cadastro do Orkut, além de quais eram as principais funções que existiam na plataforma, e quais serão as novas funções existentes na nova versão. </p></h4>
+	<br><br><br>
 
-<h2><p>Para se cadastrar</p></h2>
 
-<h4><p style="text-align: justify; text-indent: 50px;"> Ao entrar no orkut, é aberta uma página para um cadastro inicial e gratuito, que pede nome, sobrenome, email, sexo, data de nascimento e uma senha. Antigamente o cadastro no Orkut era feito somente mediante convite. Depois que sua conta for criada, a rede social sugere que você localize seus amigos que já estão cadastrados por meio dos seus contatos do seu email. Essa etapa é opcional. Para que as pessoas encontradas façam parte do seu grupo de amigos, você deve pedir uma autorização para adicioná-las, assim como as pessoas devem pedir uma confirmação sua para entrar na sua rede. O orkut possibilita que você envie um convite por email para as pessoas da sua lista que ainda têm perfis na rede. </p>
 
-<p style="text-align: justify; text-indent: 50px;"> Para editar o seu perfil, preencha as informações básicas, como cidade, sexo, data de nascimento e idiomas. Em foto do perfil, você define a imagem da sua página, como uma foto pessoal copiada de seus arquivos ou tirada com webcam (câmera ligada ao computador para a transmissão de imagens pela internet). </p>
+		<figure class="fig1"><center>
+	<img src="Imagens/orkut1.jpg"; alt="Logo marca do Orkut">
+	<figcaption>Logo do ORKUT</figcaption>
+     </center></figure>
 
-<p style="text-align: justify; text-indent: 50px;"> Você pode acrescentar outras fotos em álbuns e mais informações no seu perfil, como onde trabalha e estuda, além de detalhar gostos pessoais. Com exceção das informações básicas e da foto do perfil, a privacidade de tudo que você publicar em sua página é opcional. </p></h4>
+<br>
 
-<h2><p>Funcionalidades antigas do Orkut: </p></h2>
+<em><b><font color="#B80088">Orkut</font></b></em> foi lançado há exatos 17 anos, no dia 24 de janeiro de 2004. Após dez anos de existência, a rede social foi desativada em 30 de setembro de 2014 e deixou saudades entre os usuários, especialmente os brasileiros. Alguns recursos estão presentes na memória dos mais apegados até hoje, como os scraps, a sorte do dia e os depoimentos, que podiam ser enviados de forma oculta. Infelizmente, a maioria dessas funções não existe em plataformas famosas atualmente, como a lista de quem visualizou o perfil. </p>
 
-<h3><p> Scraps </p></h3>
+<p> O domínio <em><b><font color="#B80088">Orkut</font></b></em>.com foi reativado na quarta-feira (27), mas isso não significa que a volta da rede social está garantida. A página traz um comunicado oficial, assinado pelo próprio O<em><b><font color="#B80088">Orkut</font></b></em> Büyükkökten, em que ele afirma: "Acredito no poder da conexão para mudar o mundo. Acredito que o mundo é um lugar melhor quando nos conhecemos um pouco mais. [...] E é por isso que estou construindo algo novo. Vejo você em breve!".</p>
 
-<h4><p style="text-align: justify; text-indent: 50px;">Quem nunca recebeu a famosa mensagem "Só add com scrap"? O mural de recados do Orkut funcionava como uma espécie de caixa de entrada de mensagens pública, já que não existia uma janela privada para essas conversas. Os scraps eram comumente utilizados para puxar assunto com alguém, fazer uma declaração ou simplesmente deixar um recado trivial. </p></h4>
+<br>
+<br>
 
-<h3><p> Depoimentos </p></h3>
+	<figure><center>
+	<img src="Imagens/orkut2.jpeg"height="40%" width="40%"; alt="Comunicado da volta do orkut">
+     </center></figure>
 
-<h4><p style="text-align: justify; text-indent: 50px;"> Os depoimentos eram uma declaração pública de afeto que os usuários podiam mandar para seus amigos, de modo que ficassem expostos de forma fixa no perfil. Era comum ver vários amigos "brigando" para ver quem ficaria no "topo" dos depoimentos de um contato em comum, o que supostamente garantia o status de maior importância na vida aquela pessoa. </p>
+<br><br>
 
-<p style="text-align: justify; text-indent: 50px;"> Muitas pessoas também utilizavam os depoimentos para conversar de forma privada no Orkut, já que eles precisavam ser aprovados pelo destinatário antes de serem publicados. Essa era uma forma de driblar a exibição pública dos scraps, mas que poderia causar confusão caso um depoimento com informações íntimas fosse aprovado por engano. </p></h4>
+<p>O uso da logomarca do finado site fortalece o sentimento de que se trata de uma nova versão do <em><b><font color="#B80088">Orkut</font></b></em>, talvez resgatando os recursos mais amados da antiga rede, mas com uma roupagem diferente. </p>
 
-<h3><p> Sorte do Dia</p></h3>
+<p>No entanto, o texto, que traz versões em inglês e português, é bastante aberto a interpretações. O futuro projeto poderia também ser algo completamente diferente — ou nem mesmo vir a ser lançado. </p>
 
-<h4><p style="text-align: justify; text-indent: 50px;"> Ao abrir o Orkut, o usuário se deparava com uma previsão ou frase motivacional para se inspirar: era a "Sorte do Dia". Os recados eram frases curtas criadas pelo próprio Orkut, muitas delas bastante misteriosas, que podiam estimular a vida ou apenas passar despercebidas. </p>
+<p>Vou mostrar como será o novo formato de cadastro do <em><b><font color="#B80088">Orkut</font></b></em>, além de quais eram as principais funções que existiam na plataforma, e quais serão as novas funções existentes na nova versão. </p>
 
-<p style="text-align: justify; text-indent: 50px;"> Alguns dos recados eram "Um ato de bondade, mesmo que seja pequeno, nunca é em vão" e "Comece a ler um livro". Com o passar do tempo, a rede social passou a exibir frases repetidas e que não eram de tanto interesse para os usuários. </p></h4>
+<br><br>
 
-<h3><p> Ver quem visitou o perfil</p></h3>
+<h2>Para se cadastrar</h2>
 
-<h4><p style="text-align: justify; text-indent: 50px;"> A lista de pessoas que visualizaram um perfil é um dos recursos do Orkut mais desejados por usuários de Orkut e Orkut. A função era atualizada diariamente e mostrava o nome e o link do perfil do visitante curioso. Na época, esse recurso era útil para iniciar paqueras por meio de visitas mútuas, mas também podia causar discórdia ao abrir perfis de pessoas indesejadas. </p></h4>
+<br>
 
-<h3><p> Avaliações</p></h3>
+<p> Ao entrar no <em><b><font color="#B80088">Orkut</font></b></em>, é aberta uma página para um cadastro inicial e gratuito, que pede nome, sobrenome, email, sexo, data de nascimento e uma senha. Antigamente o cadastro no <em><b><font color="#B80088">Orkut</font></b></em> era feito somente mediante convite. Depois que sua conta for criada, a rede social sugere que você localize seus amigos que já estão cadastrados por meio dos seus contatos do seu email. Essa etapa é opcional. Para que as pessoas encontradas façam parte do seu grupo de amigos, você deve pedir uma autorização para adicioná-las, assim como as pessoas devem pedir uma confirmação sua para entrar na sua rede. O <em><b><font color="#B80088">Orkut</font></b></em> possibilita que você envie um convite por email para as pessoas da sua lista que ainda têm perfis na rede. </p>
 
-<h4><p style="text-align: justify; text-indent: 50px;"> Os usuários do Orkut podiam avaliar seus amigos em três categorias de atributos, que ficavam expostas no perfil da pessoa. Assim, era possível dizer se você considerava um amigo confiável, legal ou sexy, ajudando a construir a reputação dele dentro da rede social. Cada opção possuía um ícone próprio, preenchido pela rede social de acordo com a porcentagem de respostas recebidas em cada item. Na época, o desejo de muitas pessoas era possuir os ícones totalmente preenchidos. </p></h4>
+<p> Para editar o seu perfil, preencha as informações básicas, como cidade, sexo, data de nascimento e idiomas. Em foto do perfil, você define a imagem da sua página, como uma foto pessoal copiada de seus arquivos ou tirada com webcam (câmera ligada ao computador para a transmissão de imagens pela internet). </p>
 
-<h3><p> Comunidades</p></h3>
+<p> Você pode acrescentar outras fotos em álbuns e mais informações no seu perfil, como onde trabalha e estuda, além de detalhar gostos pessoais. Com exceção das informações básicas e da foto do perfil, a privacidade de tudo que você publicar em sua página é opcional. </p>
 
-<h4><p style="text-align: justify; text-indent: 50px;"> As comunidades eram ambientes que reuniam pessoas em torno de um assunto em comum. A mais famosa delas foi a "Eu odeio acordar cedo", que possuía milhões de membros. Naquele espaço, era possível criar tópicos para discutir assuntos específicos relacionados àquele tema central. Qualquer pessoa podia criar uma comunidade e convidar seus amigos para participar delas. </p></h4>
+<br><br>
 
-<h3><p> Mudar as cores/tema do perfil</p></h3>
+<h2>Funcionalidades antigas do Orkut</h2>
 
-<h4><p style="text-align: justify; text-indent: 50px;"> O Orkut se consagrou com a cor padrão azul, que não podia ser modificada de forma nativa no início da rede social. Para conseguir alterar a cor do perfil, os usuários deviam recorrer a extensões de terceiros, que modificavam a tonalidade somente para o próprio dono da conta, sem alterar em nada a visualização para os amigos. Além de não ser muito útil, muitos desses arquivos escondiam vírus que poderiam infectar o computador. </p></h4>
+<br><br>
 
-<h3><p> BuddyPoke e Colheita Feliz</p></h3>
+<h3>Recados</h3>
 
-<h4><p style="text-align: justify; text-indent: 50px;"> Os jogos eram uma diversão à parte dentro do Orkut. Cada usuário podia criar seu perfil em diferentes games e competir com seus amigos. Entre os mais famosos da época, está o BuddyPoke, no qual o usuário poderia criar um avatar personalizado com suas características físicas. Dentro do jogo, era possível interagir com os personagens de seus amigos, dando cutucadas, beijos e entre outras ações. </p>
+	<figure><center>
+	<img src="Imagens/orkut3.jpeg?v=1&w=638&h=406"height="40%" width="40%" alt="Paginas de Recados do Orkut">
+     </center></figure>
 
-<p style="text-align: justify; text-indent: 50px;"> A Colheita Feliz era outro jogo famoso dentro do Orkut. Nele, o usuário era proprietário de uma fazenda e tinha que cuidar da manutenção da sua terra, cultivando animais e uma plantação de vegetais. Havia um ranking que mostrava qual amigo era o mais rico dentro da fazenda, e também era possível compartilhar brindes e produtos com outros contatos. </p>
+<br>
 
-<p style="text-align: justify; text-indent: 50px;"> Entre outros jogos que fizeram sucesso está o Café Mania, em que o usuário era o administrador de uma cafeteria. Já o Joga Craque era um game no qual o usuário era um jogador de futebol, e o objetivo era gerenciar sua carreira esportiva. </p></h4>
 
-<h2><p>Novas funcionalidades Orkut</p></h2>
+<p>Quem nunca recebeu a famosa mensagem "Só add com scrap"? O mural de recados do <em><b><font color="#B80088">Orkut</font></b></em> funcionava como uma espécie de caixa de entrada de mensagens pública, já que não existia uma janela privada para essas conversas. Os scraps eram comumente utilizados para puxar assunto com alguém, fazer uma declaração ou simplesmente deixar um recado trivial. </p>
 
-<h3><p> Feed de notícias</p></h3>
+<br><br>
 
-<h4><p style="text-align: justify; text-indent: 50px;"> No centro da sua página inicial no Orkut, aparece o ''feed de notícias'', ou seja, as atualizações dos seus amigos, os links que eles divulgam, os vídeos, as notícias etc. Você pode comentar cada item ou clicar no botão ''Curtir'' para demonstrar que gostou daquele conteúdo. Da mesma forma, o que você divulgar no campo ''O que você está pensando'', pode aparecer no ''feed de notícias'' deles. Quanto mais um conteúdo for curtido ou comentado, mais aparece para as pessoas da sua rede. </p>
+<h3>Depoimentos</h3>
 
-<p style="text-align: justify; text-indent: 50px;"> Além do feed, cada usuário tem o seu mural, que aparece ao clicar sobre seu nome, informando o que foi curtido, recomendado, publicado e quem foi adicionado recentemente. Todas as suas ações aparecem nessa página, em ordem cronológica, da última para trás. </p></h4>
+<br>
 
-<h3><p> Conversar com amigos</p></h3>
+<figure><center>
+	<img src="Imagens/orkut4.webp"height="40%" width="40%" alt="Pagina de depoimentos do orkut">
+     </center></figure>
 
-<h4><p style="text-align: justify; text-indent: 50px;"> Se não quiser trocar mensagens publicamente com seus amigos nos murais deles, você pode conversar em particular com um ou com um grupo com as ''Mensagens'' e tudo que for escrito por todos aparecerão na mesma janela. </p>
+<br>
 
-<p style="text-align: justify; text-indent: 50px;"> Outra maneira de se comunicar é o bate-papo, que possibilita a troca de mensagens instantâneas com as pessoas que estão online, status indicado por uma bolinha verde, na coluna esquerda de sua página inicial. </p></h4>
 
-<h3><p> Stories</p></h3>
+<p> Os depoimentos eram uma declaração pública de afeto que os usuários podiam mandar para seus amigos, de modo que ficassem expostos de forma fixa no perfil. Era comum ver vários amigos "brigando" para ver quem ficaria no "topo" dos depoimentos de um contato em comum, o que supostamente garantia o status de maior importância na vida aquela pessoa. </p>
 
-<h4><p style="text-align: justify; text-indent: 50px;"> O Stories é um formato visual em tela cheia, que desaparece após 24 horas e não aparece no feed de notícias da plataforma. Isso significa que os usuários podem postar fácil e rapidamente para seus seguidores, sem se preocupar em sobrecarregá-los com muito conteúdo. </p>
+<p> Muitas pessoas também utilizavam os depoimentos para conversar de forma privada no <em><b><font color="#B80088">Orkut</font></b></em>, já que eles precisavam ser aprovados pelo destinatário antes de serem publicados. Essa era uma forma de driblar a exibição pública dos scraps, mas que poderia causar confusão caso um depoimento com informações íntimas fosse aprovado por engano. </p>
 
-<p style="text-align: justify; text-indent: 50px;"> Nele, é possível fazer o upload de fotos, vídeos e outros conteúdos que auxiliem a partilhar a sua rotina, divulgar uma postagem interessante, divulgar uma marca ou, simplesmente, compartilhar algo com os conhecidos. </p></h4>
+<br><br>
 
-<h3><p> Filtros de imagens </p></h3>
+<h3>Sorte do Dia</h3>
 
-<h4><p style="text-align: justify; text-indent: 50px;"> Os filtros são efeitos de câmera que utilizam a tecnologia de realidade aumentada para modificar a imagem real das coisas. Quando escolhemos um filtro e utilizamos a câmera frontal do celular, conseguimos alterar a nossa própria imagem, geralmente do rosto. Já quando utilizamos a câmera traseira, é possível alterar a imagem do local onde estamos. </p>
+<br>
 
-<p style="text-align: justify; text-indent: 50px;"> Essas alterações e interferências nas imagens gravadas ou fotografadas são os efeitos, que incluem diversas opções de interação: máscaras, luzes, brilhos, frases, jogos, objetos flutuantes, maquiagens, alteração na cor dos olhos, opções em 3D e muito mais. </p></h4>
 
-<h3><p> Reels</p></h3>
+<figure><center>
+	<img src="Imagens/orkut5.webp"height="40%" width="40%" alt="Sorte do dia do orkut">
+     </center></figure>
+<br>
 
-<h4><p style="text-align: justify; text-indent: 50px;"> Basicamente, o Reels é um espaço para você criar vídeos em até 30 segundos. Nele, você pode gravar com a câmera do seu celular na hora ou ainda resgatar vídeos da galeria do seu aparelho. </p>
 
-<p style="text-align: justify; text-indent: 50px;"> Além disso, com ele você pode editar seus vídeos adicionando músicas, filtros coloridos e textos. Aliás, são diversas as funcionalidades que a ferramenta apresenta</p>
+<p>Ao abrir o <em><b><font color="#B80088">Orkut</font></b></em>, o usuário se deparava com uma previsão ou frase motivacional para se inspirar: era a "Sorte do Dia". Os recados eram frases curtas criadas pelo próprio <em><b><font color="#B80088">Orkut</font></b></em>, muitas delas bastante misteriosas, que podiam estimular a vida ou apenas passar despercebidas. </p>
+<p> Alguns dos recados eram "Um ato de bondade, mesmo que seja pequeno, nunca é em vão" e "Comece a ler um livro". Com o passar do tempo, a rede social passou a exibir frases repetidas e que não eram de tanto interesse para os usuários. </p>
 
-<p style="text-align: justify; text-indent: 50px;"> Assim, para criar e publicar seu vídeo, é só acessar o aplicativo do Orkut e clicar na opção criar postagem, que fica na parte de cima do ao lado das notificações. Aproveite para se divertir e usar toda sua criatividade. </p></h4>
+<br><br>
 
- <h3><p> Live ao vivo</p></h3> 
+<h3>Ver quem visitou o perfil</h3>
 
-<h4><p style="text-align: justify; text-indent: 50px;">O Orkut Live faz parte do Orkut Stories, e serve para produzir conteúdo ao vivo para uma audiência pelo seu smartphone ou computador. </p>
+<br>
 
-<p style="text-align: justify; text-indent: 50px;"> É mais do que simplesmente fazer uma transmissão em tempo real: é uma forma totalmente nova de garantir interação entre públicos e atrair novos seguidores. </p></h4>
+<figure><center>
+	<img src="Imagens/orkut6.webp"height="40%" width="40%" alt=" Funcionalidade quem visitou perfil do orkut">
+     </center></figure>
+
+<br>
+
+
+<p> A lista de pessoas que visualizaram um perfil é um dos recursos do <em><b><font color="#B80088">Orkut</font></b></em> mais desejados por usuários de Orkut e Orkut. A função era atualizada diariamente e mostrava o nome e o link do perfil do visitante curioso. Na época, esse recurso era útil para iniciar paqueras por meio de visitas mútuas, mas também podia causar discórdia ao abrir perfis de pessoas indesejadas. </p>
+
+<br><br>
+
+<h3>Avaliações</h3>
+
+<br>
+
+<figure><center>
+	<img src="Imagens/orkut7.webp"height="40%" width="40%" alt=" Avaliações do orkut">
+     </center></figure>
+<br>
+
+
+<p> Os usuários do <em><b><font color="#B80088">Orkut</font></b></em> podiam avaliar seus amigos em três categorias de atributos, que ficavam expostas no perfil da pessoa. Assim, era possível dizer se você considerava um amigo confiável, legal ou sexy, ajudando a construir a reputação dele dentro da rede social. Cada opção possuía um ícone próprio, preenchido pela rede social de acordo com a porcentagem de respostas recebidas em cada item. Na época, o desejo de muitas pessoas era possuir os ícones totalmente preenchidos. </p>
+
+<br><br>
+
+<h3>Comunidades</h3>
+
+<br>
+
+<figure><center>
+	<img src="Imagens/orkut8.webp"height="40%" width="40%" alt="Como eram as comunidades do orkut">
+     </center></figure>
+<br>
+
+
+<p> As comunidades eram ambientes que reuniam pessoas em torno de um assunto em comum. A mais famosa delas foi a "Eu odeio acordar cedo", que possuía milhões de membros. Naquele espaço, era possível criar tópicos para discutir assuntos específicos relacionados àquele tema central. Qualquer pessoa podia criar uma comunidade e convidar seus amigos para participar delas. </p>
+
+<br><br>
+
+<h3>Mudar as cores/tema do perfil</h3>
+
+<br>
+
+<figure><center>
+	<img src="Imagens/orkut9.webp"height="40%" width="40%" alt=" Como eram as paginas com cores diferentes do orkut">
+     </center></figure>
+
+     <br>
+
+
+<p> O <em><b><font color="#B80088">Orkut</font></b></em> se consagrou com a cor padrão azul, que não podia ser modificada de forma nativa no início da rede social. Para conseguir alterar a cor do perfil, os usuários deviam recorrer a extensões de terceiros, que modificavam a tonalidade somente para o próprio dono da conta, sem alterar em nada a visualização para os amigos. Além de não ser muito útil, muitos desses arquivos escondiam vírus que poderiam infectar o computador. </p>
+
+<br><br>
+
+<h3>BuddyPoke e Colheita Feliz</h3>
+
+<br>
+
+<figure><center>
+	<img src="Imagens/orkut10.png"height="40%" width="40%" alt="Como era o Budy Pole do orkut">
+	<figcaption>Budy Poke</figcaption>
+     </center></figure>
+
+<br><br>
+
+     <figure><center>
+	<img src="Imagens/orkut11.webp"height="40%" width="40%" alt="Como era a colheita feliz do orkut">
+	<figcaption>Colheita Feliz</figcaption>
+     </center></figure>
+
+     
+<br>
+
+
+
+<p> Os jogos eram uma diversão à parte dentro do <b><font color="#B80088">Orkut</font></b>. Cada usuário podia criar seu perfil em diferentes games e competir com seus amigos. Entre os mais famosos da época, está o BuddyPoke, no qual o usuário poderia criar um avatar personalizado com suas características físicas. Dentro do jogo, era possível interagir com os personagens de seus amigos, dando cutucadas, beijos e entre outras ações. </p>
+
+<p> A Colheita Feliz era outro jogo famoso dentro do <b><font color="#B80088">Orkut</font></b>. Nele, o usuário era proprietário de uma fazenda e tinha que cuidar da manutenção da sua terra, cultivando animais e uma plantação de vegetais. Havia um ranking que mostrava qual amigo era o mais rico dentro da fazenda, e também era possível compartilhar brindes e produtos com outros contatos. </p>
+
+<p> Entre outros jogos que fizeram sucesso está o Café Mania, em que o usuário era o administrador de uma cafeteria. Já o Joga Craque era um game no qual o usuário era um jogador de futebol, e o objetivo era gerenciar sua carreira esportiva. </p>
+
+<br><br>
+
+<h2>Novas funcionalidades Orkut</h2>
+
+<br><br>
+
+<h3>Feed de notícias</h3>
+
+<br>
+
+<p> No centro da sua página inicial no <b><font color="#B80088">Orkut</font></b>, aparece o ''feed de notícias'', ou seja, as atualizações dos seus amigos, os links que eles divulgam, os vídeos, as notícias etc. Você pode comentar cada item ou clicar no botão ''Curtir'' para demonstrar que gostou daquele conteúdo. Da mesma forma, o que você divulgar no campo ''O que você está pensando'', pode aparecer no ''feed de notícias'' deles. Quanto mais um conteúdo for curtido ou comentado, mais aparece para as pessoas da sua rede. </p>
+
+<p> Além do feed, cada usuário tem o seu mural, que aparece ao clicar sobre seu nome, informando o que foi curtido, recomendado, publicado e quem foi adicionado recentemente. Todas as suas ações aparecem nessa página, em ordem cronológica, da última para trás. </p>
+
+<br><br>
+
+<h3>Conversar com amigos</h3>
+
+<br>
+
+<p> Se não quiser trocar mensagens publicamente com seus amigos nos murais deles, você pode conversar em particular com um ou com um grupo com as ''Mensagens'' e tudo que for escrito por todos aparecerão na mesma janela. </p>
+
+<p> Outra maneira de se comunicar é o bate-papo, que possibilita a troca de mensagens instantâneas com as pessoas que estão online, status indicado por uma bolinha verde, na coluna esquerda de sua página inicial. </p>
+
+<br><br>
+
+<h3>Stories</h3>
+
+<br>
+
+<p> O Stories é um formato visual em tela cheia, que desaparece após 24 horas e não aparece no feed de notícias da plataforma. Isso significa que os usuários podem postar fácil e rapidamente para seus seguidores, sem se preocupar em sobrecarregá-los com muito conteúdo. </p>
+
+<p> Nele, é possível fazer o upload de fotos, vídeos e outros conteúdos que auxiliem a partilhar a sua rotina, divulgar uma postagem interessante, divulgar uma marca ou, simplesmente, compartilhar algo com os conhecidos. </p>
+
+<br><br>
+
+<h3>Filtros de imagens</h3>
+
+<br>
+
+<p> Os filtros são efeitos de câmera que utilizam a tecnologia de realidade aumentada para modificar a imagem real das coisas. Quando escolhemos um filtro e utilizamos a câmera frontal do celular, conseguimos alterar a nossa própria imagem, geralmente do rosto. Já quando utilizamos a câmera traseira, é possível alterar a imagem do local onde estamos. </p>
+
+<p> Essas alterações e interferências nas imagens gravadas ou fotografadas são os efeitos, que incluem diversas opções de interação: máscaras, luzes, brilhos, frases, jogos, objetos flutuantes, maquiagens, alteração na cor dos olhos, opções em 3D e muito mais. </p>
+
+<br><br>
+<h3>Reels</h3>
+
+<br>
+
+<p> Basicamente, o Reels é um espaço para você criar vídeos em até 30 segundos. Nele, você pode gravar com a câmera do seu celular na hora ou ainda resgatar vídeos da galeria do seu aparelho. </p>
+
+<p> Além disso, com ele você pode editar seus vídeos adicionando músicas, filtros coloridos e textos. Aliás, são diversas as funcionalidades que a ferramenta apresenta</p>
+
+<p> Assim, para criar e publicar seu vídeo, é só acessar o aplicativo do Orkut e clicar na opção criar postagem, que fica na parte de cima do ao lado das notificações. Aproveite para se divertir e usar toda sua criatividade. </p>
+
+<br><br>
+
+ <h3>Live ao vivo</h3> 
+
+ <br>
+
+<p>O <b><font color="#B80088">Orkut</font></b> Live faz parte do <b><font color="#B80088">Orkut</font></b> Stories, e serve para produzir conteúdo ao vivo para uma audiência pelo seu smartphone ou computador. </p>
+
+<p> É mais do que simplesmente fazer uma transmissão em tempo real: é uma forma totalmente nova de garantir interação entre públicos e atrair novos seguidores. </p>
 
 
 </body>
