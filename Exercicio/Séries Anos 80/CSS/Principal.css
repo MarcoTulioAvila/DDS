@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+
+
+		h1{
+			font-family: Cooper Black;
+			font-size: 50pt;
+			color: #0000FF;
+			text-shadow: 1px 1px 15px #003366;
+			text-align: center;
+			margin: 0px 250px 0px 250px;
+			padding: 70px;    /* margem interna*/
+
+		}
+		h2{
+			font-family: Bahnschrift Condensed;
+			font-size: 30pt;
+			color: #FF00FF;
+			text-align: center; 
+			margin: 0px 250px 0px 250px;
+		}
+		h3{
+			font-family: Bahnschrift Condensed;
+			font-size: 20pt;
+			color: #FF00FF;
+			text-indent: 25px;
+			text-align: center; 
+			margin: 0px 250px 0px 250px;
+            }
+
+        h4{
+			font-family: Bahnschrift Condensed;
+			font-size: 12pt;
+			color: #003366;
+			text-align: center;
+			margin: 0px 150px 0px 100px;
+			text-shadow: 1px 1px 15px #FFCC00;
+		}
+
+
+		p{
+			font-family: Bahnschrift Condensed;
+			font-size: 12pt;
+			color: #FFFFFF;
+			text-align: justify; 
+			text-indent: 50px;
+			margin: 0px 250px 0px 250px;
+        }
+
+        li{
+        	font-family: Bahnschrift Condensed;
+			font-size: 12pt;
+			color: #FFFFFF;
+			text-align: justify; 
+			text-indent: 50px;
+			margin: 0px 250px 0px 250px;
+			position: center;
+
+        }
+
+
+#menu{
+			position: absolute;  /* deixa tudo lá em cima */
+			top: 0; /* vai deixar meu menu lá em cima no  inicio da pagina, no topo */ 
+			left: 0;
+			width: 100%;
+		}
+
+		#menu ul {
+			margin: 0px;
+			background-color: #00FF00; /* é a cor de fundo da minha lista */
+			list-style: none; /* tirar os icones da lista */
+			text-transform: uppercase;  /* deixa tudo maiusculo */
+			font-size: 22px;
+			text-align: center; 
+
+		}
+		#menu li {
+			display: inline-block;  /* deixar os itens em linha */
+			padding: 8px; /* margem interna aumenta o quadrado */
+			margin: 5px;  /* margem em todas as direções */
+			color: #00FF00;
+		
+		}
+		#menu  ul li a:hover{
+			color: #FF00FF; /* deixar a cor diferente quanto passa o mouse */
+		}	
+
+
+		#lista li {
+
+			text-indent: 350px;
+
+		}
+
+		#lista ul {
+
+			list-style: none; /* tirar os icones da lista */
+
+		}
