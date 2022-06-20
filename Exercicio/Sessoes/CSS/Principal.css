@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+
+
+		h1{
+			font-family: Bahnschrift Condensed;
+			font-size: 70pt;
+			color: #836D0C;
+			text-shadow: 1px 1px 15px #FFFF00;
+			text-align: center;
+			margin: 0px 250px 0px 250px;
+			padding: 70px;    /* margem interna*/
+
+		}
+		h2{
+			font-family: Bahnschrift Condensed;
+			font-size: 50pt;
+			color: #d19300;
+			text-align: center; 
+			margin: 0px 250px 0px 250px;
+		}
+		h3{
+			font-family: Bahnschrift Condensed;
+			font-size: 35pt;
+			color: #FF9900;
+			text-indent: 25px;
+			text-align: center; 
+			margin: 0px 250px 0px 250px;
+            }
+
+
+		h4{
+			font-family: Bahnschrift Condensed;
+			font-size: 12pt;
+			color: #000000;
+			text-align: justify; 
+			text-indent: 50px;
+			margin: 0px 250px 0px 250px;
+        }
+
+        li{
+        	font-family: Bahnschrift Condensed;
+			font-size: 12pt;
+			color: #FFFFFF;
+			text-align: justify; 
+			text-indent: 50px;
+			margin: 0px 250px 0px 250px;
+			position: center;
+
+        }
+
+
+#menu{
+			position: absolute;  /* deixa tudo lá em cima */
+			top: 0; /* vai deixar meu menu lá em cima no  inicio da pagina, no topo */ 
+			left: 0;
+			width: 100%;
+		}
+
+		#menu ul {
+			margin: 0px;
+			background-color: #FFCC00; /* é a cor de fundo da minha lista */
+			list-style: none; /* tirar os icones da lista */
+			text-transform: uppercase;  /* deixa tudo maiusculo */
+			font-size: 22px;
+			text-align: center; 
+
+		}
+		#menu li {
+			display: inline-block;  /* deixar os itens em linha */
+			padding: 8px; /* margem interna aumenta o quadrado */
+			margin: 5px;  /* margem em todas as direções */
+			color: #FFFF00	;
+		
+		}
+		#menu  ul li a:hover{
+			color: #FFFF00; /* deixar a cor diferente quanto passa o mouse */
+		}	
+
+
+		#lista li {
+
+			text-indent: 350px;
+
+		}
+
+		#lista ul {
+
+			list-style: none; /* tirar os icones da lista */
+
+		}
+
+		#p_diferente {
+
+			font-family: Bahnschrift Condensed;
+			font-size: 35pt;
+			color: #CC3300;
+			text-indent: 25px;
+			text-align: center; 
+			margin: 0px 250px 0px 250px;
+
+		}
+
+		#p_rodape {
+			font-family: Bahnschrift Condensed;
+			font-size: 12pt;
+			color: #003366;
+			text-align: center;
+			margin: 0px 150px 0px 100px;
+			text-shadow: 1px 1px 15px #FFCC00;
+		}
+
+
+		#menu_secundario ul {
+			margin: 0px;
+			list-style: none; /* tirar os icones da lista */
+			text-transform: uppercase;  /* deixa tudo maiusculo */
+			font-size: 22px;
+			text-align: center; 
+			color: #FFFF00	;
+
+		}
+		#menu_secundario li {
+			display: inline-block;  /* deixar os itens em linha */
+			padding: 8px; /* margem interna aumenta o quadrado */
+			margin: 5px;  /* margem em todas as direções */
+			color: #FFFF00	;
+		
+		}
+		#menu_secundario  ul li a:hover{
+			color: #FFFF00; /* deixar a cor diferente quanto passa o mouse */
+		}	
