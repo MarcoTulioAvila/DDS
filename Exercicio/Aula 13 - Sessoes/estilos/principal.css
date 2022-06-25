@@ -1,0 +1,110 @@
+
+        #menu{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        #menu ul {
+            margin: 0px;
+            background-color: #663300;
+            list-style: none;
+            padding: 1px;
+            text-align: center;
+            font-size: 30px;
+
+        }
+
+        #menu ul li {
+            display: inline-block;
+        }
+
+        #menu ul li a {
+            padding: 75px;
+            color: white;
+            text-decoration: none;
+        }
+            
+        #menu  ul li a:hover{
+            color: yellow;
+        }
+
+        li{
+            padding: 20px;
+            text-align: center;
+            list-style: none;
+        }
+                h1 {
+            color: #680000;
+            text-align: center;
+            margin: 0 20% 0 20%;
+            padding: 3px;
+            font-family: Bahnschrift Condensed;
+            font-size: 45px;
+        }
+        h2 {
+            color: #996633;
+            text-align: center;
+            background-color: #680000;
+            margin: 0 20% 0 20%;
+            padding: 3px;
+            font-family: Bahnschrift Condensed;
+            font-size: 30px;
+        }
+         h3{
+            font-family: Bahnschrift Condensed;
+            font-size: 12pt;
+            color: #663300s;
+            text-align: center;
+            margin: 0px 150px 0px 100px;
+
+        }
+
+        p {
+            text-align: justify;
+            margin: 0 20% 0 20%;
+            background-color: #000000;
+            padding: 10px;
+           font-family: Bahnschrift Condensed;
+           font-size: 15pt;
+
+        }
+
+        nav {
+            width: 85%;
+            top: 0;
+            
+        }
+        header {
+            top: 0;
+            width: 95%;
+            height: 18%;
+        }
+
+        section {
+            width: 95%;
+            height: 65%;
+            position: absolute;
+
+        }
+        aside {
+            float: right;
+            width: 30%;
+            
+        }
+
+        footer {
+            padding: 10px;
+            bottom: 0;
+            left: 0;
+            position: fixed;
+            width: 100%;
+        }
+                article{
+            float: left;
+            width: 69%;
+            color: white;
+            
+        }
+
