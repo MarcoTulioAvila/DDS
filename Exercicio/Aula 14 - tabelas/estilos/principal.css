@@ -1,4 +1,11 @@
 
+body {
+    background-image: url("https://static.vecteezy.com/ti/fotos-gratis/p2/1917859-areia-e-praia-para-textura-e-fundo-gr%C3%A1tis-foto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+        
         #menu{
             position: fixed;
             top: 0;
@@ -8,7 +15,7 @@
 
         #menu ul {
             margin: 0px;
-            background-color: #663300;
+            background-color: #009999;
             list-style: none;
             padding: 1px;
             text-align: center;
@@ -46,7 +53,7 @@
         h2 {
             color: #996633;
             text-align: center;
-            background-color: #680000;
+            background-color: #FFA015;
             margin: 0 20% 0 20%;
             padding: 3px;
             font-family: Bahnschrift Condensed;
@@ -64,7 +71,7 @@
         p {
             text-align: justify;
             margin: 0 20% 0 20%;
-            background-color: #000000;
+            background-color: #FFA015;
             padding: 10px;
            font-family: Bahnschrift Condensed;
            font-size: 15pt;
@@ -104,7 +111,11 @@
         article{
             float: left;
             width: 69%;
-            color: white;
+            color: black;
             
         }
 
+table {
+    background-color: #FFA015;
+
+}

@@ -1,0 +1,110 @@
+
+		h1{
+			text-align: center;
+			padding: 20px;
+			font-family: Bahnschrift Condensed;
+			font-size: 45px;
+			color: #680000;
+
+		}
+				
+		h2{
+			text-align: center;
+			padding: 20px;
+			font-family: Bahnschrift Condensed;
+
+		}
+				
+		h3{
+			text-align: center;
+			padding: 20px;
+			font-family: Bahnschrift Condensed;
+
+		}
+
+
+		h4{
+			font-family: Bahnschrift Condensed;
+			font-size: 12pt;
+			color: #663300s;
+			text-align: center;
+			margin: 0px 150px 0px 100px;
+			
+		}
+		figcaption{ 
+			text-align: center;
+			padding: 20px;
+		}
+
+
+		p{
+			text-align: justify;
+			margin: 0px 500px 0px 500px;
+		}
+		nav {
+			color: black;
+			float: left;
+			width: 20%;
+			height: 70%;
+			padding: 60px;
+			text-align: justify;
+			background-color: #FFA015;
+			
+		}
+		aside {
+			color: black;
+			float: right;
+			width: 20%;
+			height: 70%;
+			padding: 60px;
+			text-align: justify;
+			background-color: #FFA015;
+		}
+		footer {
+			float: none;
+			text-align: justify;
+			position: bottom;
+		}
+		article {
+			float: none;
+
+		}
+
+				
+		
+		#menu{
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+		}
+
+		#menu ul {
+			margin: 0px;
+			background-color: #009999;
+			list-style: none;
+			padding: 1px;
+			text-align: center;
+			font-size: 30px;
+
+		}
+
+		#menu ul li {
+			display: inline-block;
+		}
+
+		#menu ul li a {
+			padding: 75px;
+			color: white;
+			text-decoration: none;
+		}
+			
+		#menu  ul li a:hover{
+			color: yellow;
+		}
+
+		li{
+			padding: 20px;
+			text-align: center;
+			list-style: none;
+		}
